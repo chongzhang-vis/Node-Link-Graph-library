@@ -56,18 +56,18 @@ version 0.3.4
 * 7. Ease of maintenance and extension
 
 
-[Demo1] (http://192.168.22.60:8080/examples/NLGraph_example.html)
+[Demo1] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_example.html)
 
-[Demo2] (http://go.graphsql.com)
+[Demo2] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_examples.html)
 
 ## Contact
 #### Chong Zhang
 * Homepage: 
-* e-mail: chong.zhang@grahsql.com
+* e-mail: chongzhang.nc@gmail.com
 
 
 ## Licence
-All rights reserved 2015 ???
+All rights reserved. GraphSQL Inc 2015 
 
 ## Installation
 

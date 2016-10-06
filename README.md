@@ -55,10 +55,13 @@ version 0.3.4
 * 6. Snapshotting
 * 7. Ease of maintenance and extension
 
+[Demo1 - used by GraphSQL products] (http://webpages.uncc.edu/czhang22/samples/graphsqldemo/index.html)
 
-[Demo1] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_example.html)
+[Demo2] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_example.html)
 
-[Demo2] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_examples.html)
+[Demo3] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_examples.html)
+
+
 
 ## Contact
 #### Chong Zhang

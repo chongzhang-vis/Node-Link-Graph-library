@@ -21,7 +21,7 @@ version 0.3.4
 
 ## Contact
 #### Chong Zhang
-* Homepage: 
+* Homepage: http://webpages.uncc.edu/czhang22
 * e-mail: chongzhang.nc@gmail.com
 
 

@@ -84,7 +84,8 @@ Reference the `NLGraph.min.v*.js` and `nlgraph.css` files located under `build/`
 
 ```javascript
 var newdata = {
-          "nodes": [
+     
+    "nodes": [
             {"id": "0", "type": "usr", "attr": {"a1": 1, "a2": 2}, "style": {"size": 100, "shape": "square", "fill": "#ff5500", "stroke": "#ccc", "strokeWidth": 1, "dashed": true, "opacity": 1, "label": {"stroke": "black", "fill": "yellow"}}},
             {"id": "1", "type": "tag", "attr": {"a1": 1, "a2": 2}, "style": {"size": 100, "shape": "circle", "fill": "#005500", "stroke": "#ccc", "strokeWidth": 1, "dashed": true, "opacity": 0.8}},
             {"id": "2", "type": "usr", "attr": {"a1": 1, "a2": 2}, "style": {"size": 10, "shape": "cross", "fill": "#0055ff", "stroke": "#ccc", "strokeWidth": 1, "dashed": false, "opacity": 0.7}},
@@ -98,9 +99,11 @@ var newdata = {
             {"id": "10", "type": "usr", "attr": {"a1": 1, "a2": 2}, "style": {"size": 60, "shape": "square", "fill": "#2CA02C", "stroke": "#ccc", "strokeWidth": 1, "dashed": false, "opacity": 0.8}},
             {"id": "11", "type": "movie", "attr": {"a1": 1, "a2": 2}, "style": {"size": 10, "shape": "diamond", "fill": "#2CA02C", "stroke": "#ccc", "strokeWidth": 1, "dashed": true, "opacity": 0.7}},
             {"id": "12", "type": "usr", "attr": {"a1": 1, "a2": 2}, "style": {"size": 60, "shape": "hexagon", "fill": "#2CA02C", "stroke": "#ccc", "strokeWidth": 1, "dashed": true, "opacity": 0.6}}],
-          "links": [
-
-                       {"source": {"id": 8, "type": "usr"}, "target": {"id": 9, "type": "tag"}, "etype": "adf", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#2CA02C", "strokeWidth": 1, "dashed": false, "opacity": 0.9}, "directed": false},
+	    
+	    
+	    
+    "links": [
+    	{"source": {"id": 8, "type": "usr"}, "target": {"id": 9, "type": "tag"}, "etype": "adf", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#2CA02C", "strokeWidth": 1, "dashed": false, "opacity": 0.9}, "directed": false},
             {"source": {"id": 5, "type": "movie"}, "target": {"id": 0, "type": "usr"}, "etype": "fdd", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#2CA02C", "strokeWidth": 1, "dashed": true, "opacity": 0.6}, "directed": false},
             {"source": {"id": 0, "type": "usr"}, "target": {"id": 6, "type": "usr"}, "etype": "eew", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#ccc", "strokeWidth": 1, "dashed": false, "opacity": 0.5}, "directed": true},
             {"source": {"id": 1, "type": "tag"}, "target": {"id": 3, "type": "movie"}, "etype": "eer", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#E377C2", "strokeWidth": 1, "dashed": true, "opacity": 0.4}, "directed": true},
@@ -108,30 +111,21 @@ var newdata = {
             {"source": {"id": 5, "type": "movie"}, "target": {"id": 1, "type": "tag"}, "etype": "sdf", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#E377C2", "strokeWidth": 1, "dashed": true, "opacity": 1}, "directed": true},
             {"source": {"id": 5, "type": "movie"}, "target": {"id": "12**##", "type": "usr"}, "etype": "bbc", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#ccc", "strokeWidth": 1, "dashed": true, "opacity": 0.5}, "directed": true},
             {"source": {"id": 8, "type": "usr"}, "target": {"id": 11, "type": "movie"}, "etype": "bbd", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#1F77B4", "strokeWidth": 1, "dashed": false, "opacity": 0.9}, "directed": true},
-
             {"source": {"id": 2, "type": "usr"}, "target": {"id": 9, "type": "tag"}, "etype": "ssb", "attr": {"aa1": "Hello, world, this, is", "aa2": "JavaScript"}, "style": {"stroke": "#E377C2", "strokeWidth": 1, "dashed": true, "opacity": 0.8}, "directed": true},
             {"source": {"id": 2, "type": "usr"}, "target": {"id": 9, "type": "tag"}, "etype": "cca", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#2CA02C", "strokeWidth": 1, "dashed": false, "opacity": 0.7}, "directed": true},
             {"source": {"id": 2, "type": "usr"}, "target": {"id": 9, "type": "tag"}, "etype": "ccb", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#2CA02C", "strokeWidth": 1, "dashed": false, "opacity": 0.7}, "directed": true},
             //{"source": {"id": 9, "type": "tag"}, "target": {"id": 2, "type": "usr"}, "etype": "ccb", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#2CA02C", "strokeWidth": 1, "dashed": false, "opacity": 0.7}, "directed": true},
             {"source": {"id": 2, "type": "usr"}, "target": {"id": 9, "type": "tag"}, "etype": "ccc", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#2CA02C", "strokeWidth": 1, "dashed": false, "opacity": 0.7}, "directed": true},
             {"source": {"id": 2, "type": "usr"}, "target": {"id": 9, "type": "tag"}, "etype": "ccd", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#2CA02C", "strokeWidth": 1, "dashed": false, "opacity": 0.7}, "directed": true},
-
-
             {"source": {"id": 4, "type": "tag"}, "target": {"id": 6, "type": "usr"}, "etype": "bbs", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#1F77B4", "strokeWidth": 1, "dashed": true, "opacity": 0.6}, "directed": true},
             {"source": {"id": 4, "type": "tag"}, "target": {"id": 6, "type": "usr"}, "etype": "bbd", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#1F77B4", "strokeWidth": 1, "dashed": false, "opacity": 0.9}, "directed": true},
-
-
             //grey
             {"source": {"id": 1, "type": "tag"}, "target": {"id": 0, "type": "usr"}, "etype": "abc", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#ccc", "strokeWidth": 1, "dashed": true, "opacity": 1}, "directed": true},
             //green
             {"source": {"id": 0, "type": "usr"}, "target": {"id": 1, "type": "tag"}, "etype": "adf", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#00ff00", "strokeWidth": 1, "dashed": false, "opacity": 1}, "directed": true},
-
-
-
             {"source": {"id": 7, "type": "tag"}, "target": {"id": 8, "type": "usr"}, "etype": "bbs", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#ccc", "strokeWidth": 1, "dashed": false, "opacity": 0.7}, "directed": false},
             {"source": {"id": 8, "type": "usr"}, "target": {"id": 7, "type": "tag"}, "etype": "cca", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#ccc", "strokeWidth": 1, "dashed": false, "opacity": 0.7}, "directed": false},
             {"source": {"id": 7, "type": "tag"}, "target": {"id": 8, "type": "usr"}, "etype": "bbc", "attr": {"aa1": 3, "aa2": 4}, "style": {"stroke": "#ccc", "strokeWidth": 1, "dashed": false, "opacity": 0.7}, "directed": false},
-
             //green
             {"source": {"id": 3, "type": "movie"}, "target": {"id": 10, "type": "usr"}, "etype": "cca", "attr": {"aa1": 2323, "aa2": 4545}, "style": {"stroke": "green", "strokeWidth": 1, "dashed": true, "opacity": 1}, "directed": true},
             //blue
@@ -145,7 +139,7 @@ var newdata = {
         };
 ```
 
-## How to use it ?
+## Usage
 
 ```javascript
     var el = document.getElementById("container"),

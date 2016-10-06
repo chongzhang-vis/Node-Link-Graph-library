@@ -13,9 +13,15 @@ version 0.3.4
 
 [Demo1 - used by GraphSQL products] (http://webpages.uncc.edu/czhang22/samples/graphsqldemo/index.html)
 
-[Demo2] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_example.html)
+[Demo2 - fraud detection] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_frauddetection.html)
 
-[Demo3] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_examples.html)
+[Demo3 - flight search1] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_flight1.html)
+
+[Demo4 - flight search2] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_flight2.html)
+
+[Demo5 - prototype] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_example.html)
+
+[Demo6 - misc] (http://webpages.uncc.edu/czhang22/samples/nlgraph/nlgraph_examples.html)
 
 
 

@@ -1,50 +1,6 @@
-NLGraph.js, a JavaScript library for node-link graph visualization
+NLGraph.js, a JavaScript library for node-link graph (NetWork) visualization
 version 0.3.4
 ===========
-
-## Log
-
-*Date: 2015-06-10
-* Version: 0.3.4
-* Initial version finished on: 2015-07-10
-*
-* Could have done better/in a different way:
-* 1. Exception handling
-* 2. Change curve line to straight when two nodes are close and change back when far away
-* 3. Multi-edges could be drawn like they are converging on the source/target rather than outerCircles
-* 4. Change default layout algorithm to hierarchy, circular, pack, etc
-*
-*
-* Issues fixed since 0.3:
-* 1. Add getSnapShot() and restoreSnapShot(); add deepCopyArrayBoundData();
-* 2. Fixed click event fired on the drag move
-* 3. Set line not to display when two nodes are close
-* 4. Change layout function to customize layout algorithm and provide an example
-*
-*
-* Issues fixed since 0.2:
-* 1. Attribute getting for labeling
-* 2. Consider node width in autofit
-* 3. Add autofit to options
-* 4. Add forceSpeed to options for the speed of force layout simulation
-* 5. Add lineTensionDistance to options for perpendicular distance between multi-edges
-* 6. Add edgeCurve to options for the curve patter of multi-edges
-* 7. Fix disappeared edge label
-* 8. Change connectString of key of link from underscore to breakline (internal use)
-* 9. Fix arrowheads change when nodes getting closer to other nodes
-* 10. Add static force layout switch to determine the display of animation
-* 11. Change force charge to make sure nodes space out evenly
-* 12. Add individual label outline style (stroke and fill) for node
-* 13. Add an option for collision radius to have a 'normal' force layout (no long/short link distance)
-* 14. Add a function called fitDiv to adjust the graph to a specific div
-* 15. Add default dblclick.zoom as null
-* 16. Apply a map to link key so that nodeid/nodetype can be any characters
-* 17. Fix FireFox bug in .getBBox
-* 18. Change the way drawing multi-edges to fix arrowhead bug when turning round node
-* 19. As requested, the style setting on the fly will reflect on original data structure;
-* remove resetOpacity(), change unHighlight() and other functions regarding to styles;
-*
-
 ## Advantages:
 
 * 1. Multi-edges rendering between two nodes
@@ -607,3 +563,46 @@ Do not forget to append "!important" to the end of each style.
 ### Brushing, Zooming, and Dragging
 
 Only one of them can work at a time.
+
+## Log
+
+*Date: 2015-06-10
+* Version: 0.3.4
+* Initial version finished on: 2015-07-10
+*
+* Could have done better/in a different way:
+* 1. Exception handling
+* 2. Change curve line to straight when two nodes are close and change back when far away
+* 3. Multi-edges could be drawn like they are converging on the source/target rather than outerCircles
+* 4. Change default layout algorithm to hierarchy, circular, pack, etc
+*
+*
+* Issues fixed since 0.3:
+* 1. Add getSnapShot() and restoreSnapShot(); add deepCopyArrayBoundData();
+* 2. Fixed click event fired on the drag move
+* 3. Set line not to display when two nodes are close
+* 4. Change layout function to customize layout algorithm and provide an example
+*
+*
+* Issues fixed since 0.2:
+* 1. Attribute getting for labeling
+* 2. Consider node width in autofit
+* 3. Add autofit to options
+* 4. Add forceSpeed to options for the speed of force layout simulation
+* 5. Add lineTensionDistance to options for perpendicular distance between multi-edges
+* 6. Add edgeCurve to options for the curve patter of multi-edges
+* 7. Fix disappeared edge label
+* 8. Change connectString of key of link from underscore to breakline (internal use)
+* 9. Fix arrowheads change when nodes getting closer to other nodes
+* 10. Add static force layout switch to determine the display of animation
+* 11. Change force charge to make sure nodes space out evenly
+* 12. Add individual label outline style (stroke and fill) for node
+* 13. Add an option for collision radius to have a 'normal' force layout (no long/short link distance)
+* 14. Add a function called fitDiv to adjust the graph to a specific div
+* 15. Add default dblclick.zoom as null
+* 16. Apply a map to link key so that nodeid/nodetype can be any characters
+* 17. Fix FireFox bug in .getBBox
+* 18. Change the way drawing multi-edges to fix arrowhead bug when turning round node
+* 19. As requested, the style setting on the fly will reflect on original data structure;
+* remove resetOpacity(), change unHighlight() and other functions regarding to styles;
+*
